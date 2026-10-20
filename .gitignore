@@ -1,0 +1,22 @@
+# Assessment output describes a real tenant's security configuration. Never commit it.
+ScubaGearOutput/
+M365BaselineConformance_*/
+ScubaResults*
+TestResults*.json
+ProviderSettingsExport*.json
+ActionPlan*.csv
+BaselineReports.html
+IndividualReports/
+DebugLogs/
+*.orig
+
+# Local ScubaGear config files usually contain tenant details
+*config*.yaml
+*config*.yml
+*config*.json
+
+.DS_Store
+
+# CISA's sample output from a fictional tenant, kept on purpose
+!sample-report/
+!sample-report/**
