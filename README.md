@@ -117,7 +117,7 @@ Invoke-SCuBA -ProductNames teams -OPAPath ~/.scubagear/Tools -OutPath ~/ScubaGea
 
 ## Output
 
-Each run folder contains:
+See [`sample-report/`](sample-report/) for CISA's example output from a fictional tenant. Each run folder contains:
 
 | File | Contents |
 |---|---|
@@ -159,6 +159,7 @@ scripts/
   Invoke-ScubaGearMac.ps1        Runs an assessment and opens the report
   Repair-ScubaGearOpaCompat.ps1  Applies or reverts the OPA 1.x Rego patches
   ScubaGearMac.Common.ps1        Shared helpers used by the scripts above
+sample-report/                   CISA's sample output from a fictional tenant
 ```
 
 ## License
